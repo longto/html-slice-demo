@@ -1,0 +1,154 @@
+<div class="desktop-header">
+    <header class="sub background-lgrey is-desktop">
+        <div class="base">
+            <div class="row clearfix">
+                <div class="col-7">
+                    <nav class="util">
+                        <ul class="clearfix"></ul>
+                    </nav>
+                </div>
+                <div class="col-5 pull-right">
+                    <nav class="account clearfix">
+                        <ul class="clearfix pull-right">
+                            <li>
+                                <a href="/Header/SignOut" class="header__login">Sign Out</a>
+                            </li>
+                            <li>
+                                <a href="/my-pages/profile/" class="header__login">My Account</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <header class="main">
+        <div class="base">
+            <div class="dtable">
+
+                <div class="dcell logo is-desktop">
+                    <a href="/">
+                        <img src="/Styles/images/logo-easons.png" alt="">
+                    </a>
+                </div>
+
+                <div class="dcell nav is-mobile">
+                    <nav class="mobile-nav" data-toggle="slide" data-target-id="#search-facet2">
+                        MENU
+                    </nav>
+                </div>
+
+                <div class="dcell is-desktop">
+                    <div class="search-control">
+                        <form action="/Search" method="GET">
+                            <label class="sr-only">Search the easons website</label>
+                            <input type="text" value="" name="q" id="q" placeholder="Search over 2 million products...">
+                            <button type="submit" class="btn-search"></button>
+                        </form>
+                        <div w3-include-html="./Components/search/autoSuggestion.html"></div>
+                    </div>
+                </div>
+
+                <div class="dcell logo is-mobile">
+                    <a href="/">
+                        <img src="/Styles/images/logo-easons.png" alt="">
+                    </a>
+                </div>
+                <div class="dcell basket text-right">
+                    <div class="minicart-area" id="MiniCart" data="Basket" data-checkouturl="/checkout/">
+                        <div data-reactroot="" class="miniCart---miniCart---tRJkf">
+                            <button class="" data-toggle="hidden" data-target-id="#basket-dropdown"><span class="subtotal">Empty</span><span class="cart-count">0 items</span></button>
+                            <div w3-include-html="./Components/basketDropDown.html"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="search-control search-control__mobile">
+                <form action="/Search" method="GET">
+                    <label class="sr-only">Search the easons website</label>
+                    <input type="text" value="" name="q" id="q" placeholder="Search over 2 million products...">
+                    <button type="submit" class="btn-search"></button>
+                </form>
+                <div w3-include-html="./Components/search/autoSuggestion.html"></div>
+            </div>
+
+            <nav class="main is-desktop">
+                <div class="dtable text-uppercase text-center">
+                    <div class="dcell">
+                        <a href="/search/">Search</a>
+                        <div class="mega-menu" style="display: none; opacity: 1;">
+                            <div class="dtable">
+                                <div class="drow">
+                                    <div class="dcell main-display">
+                                        <ul></ul>
+                                    </div>
+                                    <div class="dcell dcell-top complementary">
+                                        Complementary items?
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mega-footer">
+                                <a class="text-uppercase" data="" href="/search/">Shop all Search</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dcell">
+                        <a href="">Login</a>
+                        <div class="mega-menu" style="display: none; opacity: 1;">
+                            <div class="dtable">
+                                <div class="drow">
+                                    <div class="dcell main-display">
+                                        <ul></ul>
+                                    </div>
+                                    <div class="dcell dcell-top complementary">
+                                        Complementary items?
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mega-footer">
+                                <a class="text-uppercase" data="" href="">Shop all Login</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dcell">
+                        <a href="/checkout/">Checkout</a>
+                        <div class="mega-menu" style="display: none; opacity: 1;">
+                            <div class="dtable">
+                                <div class="drow">
+                                    <div class="dcell main-display">
+                                        <ul></ul>
+                                    </div>
+                                    <div class="dcell dcell-top complementary">
+                                        Complementary items?
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mega-footer">
+                                <a class="text-uppercase" data="" href="/checkout/">Shop all Checkout</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dcell">
+                        <a href="">My pages</a>
+                        <div class="mega-menu">
+                            <div class="dtable">
+                                <div class="drow">
+                                    <div class="dcell main-display">
+                                        <ul></ul>
+                                    </div>
+                                    <div class="dcell dcell-top complementary">
+                                        Complementary items?
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mega-footer">
+                                <a class="text-uppercase" data="" href="">Shop all My pages</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+</div>

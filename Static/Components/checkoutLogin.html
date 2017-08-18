@@ -1,0 +1,94 @@
+<div class="checkout-login-tab">
+    <ul class="tab-panel">
+        <li class="active">Welcome</li>
+        <li>Delivery Options</li>
+        <li>Payment Information</li>
+        <li>Confirmation</li>
+    </ul>
+    <!--list button on mobile-->
+    <div class="display-on-mobile">
+        <ul class="nav nav-pills nav-stacked">
+            <li><a href="#signIn" class="btn-mobile-checkout">Sign in</a></li>
+            <li><a href="#createAccount" class="btn-mobile-checkout">Create an account</a></li>
+            <li><a href="#guestCheckout" class="btn-mobile-checkout">Guest checkout</a></li>
+        </ul>
+    </div>
+    <p class="checkout-login-tab__welcome">Welcome!</p>
+    <div class="row">
+        <div class="col-sm-6 col-xs-12">
+    <!--sign in form-->
+        <div class="sign-in-form checkout-input-form" id="signIn">                  
+            <p>
+                <span class="checkout-title">Sign in</span> 
+                <a class="pull-right display-on-mobile normal-text link-style" href="">BACK</a>
+            </p>                                
+            <p class="remove-margin display-on-desktop">You could earn 58 points on this order.</p>
+            <p class="remove-margin text-underline display-on-desktop">Want to create an online account?</p>
+            <div class="checkout-form">
+                <form>
+                    <div class="form-group">
+                        <input type="text" placeholder="email address" class="marginTop20 checkout-inputs"/>
+                        <input type="password" placeholder="password" class="marginTop20 checkout-inputs"/>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-6 forgot_account text-right">
+                            <div>
+                                <a class="link-style text-bold text-underline" href="#">Forgot Password?</a>
+                            </div>
+                            <div>
+                                <a href="#" class="link-style text-bold text-underline">Not user name?</a>
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <button class="checkout-button" type="submit">SIGN IN</button>  
+                        </div>
+                    </div>
+                </form>                                
+                <!--<p class="large-text text-align-center remove-margin">OR</p>
+                <button class="fb-button clear">
+                    <i class="fa fa-facebook-square fb-icon" aria-hidden="true"></i>
+                    &nbsp;Sign in with Facebook
+                </button>
+                <p class="remove-margin small">By logging in, you accept our terms and conditions.</p>-->
+            </div>
+            </div>
+        </div>
+    <!--checkout as guest-->
+        <div class="col-sm-6 col-xs-12 checkout-as-guest checkout-input-form" id="guestCheckout">
+            <span class="checkout-title">Checkout as a guest</span>
+            <p class="remove-margin">You don't need an account to place your order.</p>
+            <input type="text" placeholder="email address" class="marginTop20 checkout-inputs"/>
+            <p class="marginTop20">(Your email will be used to confirm your order)</p>
+            <button class="checkout-button pull-right col-sm-6 col-xs-6">NEXT</button>
+        </div>
+    </div>
+    <!--create an  accout-->
+    <div id="createAccount" class="create-an-account checkout-input-form">
+        <p>
+            <span class="checkout-title">Create an account</span>
+            <a class="pull-right display-on-mobile normal-text link-style" href="">BACK</a>        
+        </p>
+        <p><strong>Enter your email adress below and create a new password.</strong></p>
+        <p class="remove-margin faint-text small padingtext">*required fileds</p>
+        <p>
+            <p class="remove-margin padingtext">*Email</p>
+            <input type="text" class="checkout-inputs new-account-input"/>
+        </p>
+        <p>
+            <p class="remove-margin padingtext">*Password</p>
+            <input type="password" class="checkout-inputs new-account-input"/>
+        </p>
+        <p>
+            <p class="remove-margin padingtext">*Repeat password</p>
+            <input type="password" class="checkout-inputs new-account-input"/>
+        </p>
+        <div class="line checkbox">
+            <input type="checkbox" name="sign-up-checkbox" id="sign-up-checkbox"> 
+            <label for="sign-up-checkbox"><strong>Sign me up fo the Eason newsletter!</strong></label>
+        </div>
+        <p class="faint-text padingtext">By submitting, you agree that you have read and understood our <a class="faint-text text-underline" href="#">privacy policy</a>.</p>
+        <button class="btn-create-new-account display-on-mobile">
+            Create account
+        </button>
+    </div>
+</div>

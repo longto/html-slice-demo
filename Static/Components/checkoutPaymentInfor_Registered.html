@@ -1,0 +1,51 @@
+
+<ul class="tab-panel">
+    <li class="active">Welcome</li>
+    <li class="active">Delivery Options</li>
+    <li class="active">Payment Information</li>
+    <li>Confirmation</li>
+</ul>
+
+<div id="payment-tab" class="col-sm-7 col-xs-12 nopadding">
+    <h3 class="between-content">Choose a payment method</h3>
+    <a class="btn btn-payment-paypal between-content link-style" href=""> Check out</a>
+    <h4 class="between-content">Credit Card / Debit Card</h4>
+    
+    <label class="credit-card clear checkbox-with-content">
+        <input type="radio" name="payment" value="" class="radio-input col-xs-1" checked="checked" />
+        <div class="col-xs-11">
+            <span class="">VISA</span> 
+            <span class="pull-right"><a class="link-style text-underline">Edit</a> / <a class="link-style text-underline">Remove</a></span><br/>
+            <span>Name Surname</span><br/>
+            <span>************1234</span><br/>
+            <span>11/2017</span>
+        </div>
+        <div class="hidden-content">
+        </div>
+    </label>
+    <label class="credit-card clear checkbox-with-content">
+        <input type="radio" name="payment" value="" class="radio-input col-xs-1"/>
+        <div class="col-xs-11">
+            <span class="">VISA</span> 
+            <span class="pull-right"><a class="link-style text-underline">Edit</a> / <a class="link-style text-underline">Remove</a></span><br/>
+            <span>Name Surname</span><br/>
+            <span>************1234</span><br/>
+            <span>11/2017</span>
+        </div>
+        <div class="hidden-content">
+        </div>
+    </label>
+    <label class="credit-card clear checkbox-with-content">
+        <input type="radio" name="payment" value="" class="radio-input col-xs-1"/>
+        <div class="col-xs-11">
+            <span>ADD A NEW CARD</span> 
+        </div>
+        <div class="hidden-content">
+        </div>
+    </label>
+
+    <!--add card number-->
+    <div w3-include-html="./Components/eVoucher_loyaltyCard.html"></div>
+
+    <button class="btn btn-checkout btn-checkout-info pull-right col-xs-6">Process Payment</button>
+</div>

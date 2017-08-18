@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Easons - NOT FOR COMMERCIAL USE</title>
+
+
+    <!-- Google fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="/scripts/fancybox/jquery.fancybox.css?v=2.1.7" type="text/css" media="screen">
+
+    <link href="../../assets/bundle.css" rel="stylesheet" type="text/css" media="all">
+
+    <link rel="icon" href="/Styles/Images/favicon.ico" type="image/x-icon">
+    <link href="/fonts/fonts.css" rel="stylesheet" type="text/css" media="all">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script id="scarab-js-api" src="http://cdn.scarabresearch.com/js/179D4CFB7C4FA189/scarab-v2.js"></script>
+    <script type="text/javascript" src="/scripts/slick.min.js"></script>
+    <script type="text/javascript" src="/scripts/blocks/carousel.js"></script>
+
+
+    <!--start emarsys-->
+    <script type="text/javascript">
+        var ScarabQueue = ScarabQueue || [];
+        (function (subdomain, id) {
+            if (document.getElementById(id)) return;
+            var js = document.createElement('script'); js.id = id;
+            js.src = subdomain + '.scarabresearch.com/js/179D4CFB7C4FA189/scarab-v2.js';
+            var fs = document.getElementsByTagName('script')[0];
+            fs.parentNode.insertBefore(js, fs);
+        })('https:' == document.location.protocol ? 'https://recommender' : 'http://cdn', 'scarab-js-api');
+    </script>
+    <!--end emarsys-->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <style type="text/css">
+        .fancybox-margin {
+            margin-right: 17px;
+        }
+    </style>
+</head>
+<body>
+    <div class="annoucement-bar text-center background-grey text-uppercase color-white">
+    </div>
+    <div w3-include-html="./Components/header.html"></div>
+    <div class="base">
+        <div id="sb-site">
+
+            <!--content here-->
+                <div class="padding-top-20">
+                    <div class="slide-outter">
+                        <div class="slide-inner" id="search-facet">
+                            <div class="row ">
+                                <div class="col-md-2 col-sm-3 col-xs-6">
+                                    <div w3-include-html="./Components/search/category.html"></div>
+                                </div>
+                                <div class="col-md-10 col-sm-9 col-xs-6 hide-on-active">
+                                    <div w3-include-html="./Components/search/searchResultListItem.html"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!--end content-->
+        </div>
+    </div>
+
+    <div w3-include-html="./Components/footer.html"></div>    
+
+</body>
+</html>
+
+<script type="text/javascript" src="./Components/mockup.js"></script>
+<script type="text/javascript" src="./Components/script.js"></script>

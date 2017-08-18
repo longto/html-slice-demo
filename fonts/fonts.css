@@ -1,0 +1,17 @@
+﻿@font-face {
+    font-family: "avenir-light";
+    src: url("/fonts/1475500/c886ac4d-0476-43f2-859c-69521d566f36.eot?#iefix");
+    src: url("/fonts/1475500/c886ac4d-0476-43f2-859c-69521d566f36.eot?#iefix") format("eot"),url("/fonts/1475500/e35493b4-782b-41f0-b3f0-b7e5d0ceab0b.woff") format("woff"),url("/fonts/1475500/3441ac36-8e74-4708-8a0e-bc7eb293b307.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "avenir-medium";
+    src: url("/fonts/1475536/4b08ce72-f57c-4113-84ba-56062e307075.eot?#iefix");
+    src: url("/fonts/1475536/4b08ce72-f57c-4113-84ba-56062e307075.eot?#iefix") format("eot"),url("/fonts/1475536/28433854-a1b7-4a30-b6a4-10c3a5c75494.woff") format("woff"),url("/fonts/1475536/edcbf576-7e55-423b-9ec9-cf526614a117.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "avenir-heavy";
+    src: url("/fonts/1475548/7ed39c78-4da5-42df-831b-798b2272d1ac.eot?#iefix");
+    src: url("/fonts/1475548/7ed39c78-4da5-42df-831b-798b2272d1ac.eot?#iefix") format("eot"),url("/fonts/1475548/fbd14ec6-aa86-4ccd-af83-931d5eb79910.woff") format("woff"),url("/fonts/1475548/0d230b6d-eb52-48b7-9c4b-c3f876465fe6.ttf") format("truetype");
+}
