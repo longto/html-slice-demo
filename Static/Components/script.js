@@ -139,6 +139,7 @@ var main = function() {
 	var dropdownSelect = function(){
 		var dropdown = document.querySelector(".filter-controller .dropdown");
 		var selectBtn = document.querySelector(".filter-controller #sorting_condition");
+		if(!dropdown||!selectBtn) return;
 		selectBtn.addEventListener("click", function(e){
 			dropdown.classList.add("open");
 			document.querySelector(".bgr-transparent").style.display = "block";
